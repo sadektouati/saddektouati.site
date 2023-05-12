@@ -2,8 +2,8 @@
 $schoolProjects = [
     'Session 1' => [
         "Initiation a la création de sites web (HTML, CSS)" => [
-            ["/schl/s1-creation-site-web/portfolio-1", "Portfolio 1"],
-            ["/schl/s1-creation-site-web/portfolio-2", "Portfolio 2"],
+            ["/schl/s1-c-s-w/portfolio-1", "Portfolio 1"],
+            ["/schl/s1-c-s-w/portfolio-2", "Portfolio 2"],
         ],
         "Introduction à la programmation (PHP)" => [
             ["/schl/s1-prgrmtn/affichage-notes", "Affichage Notes"],
@@ -12,10 +12,10 @@ $schoolProjects = [
     
     'Session 2' => [
         "Création et désign site web (Désign UI et CSS)" => [
-            ["/schl/s2-creation-design-site-web/tp-1", "TP 1"],
-            ["/schl/s2-creation-design-site-web/tp-2", "TP 2"],
-            ["/schl/s2-creation-design-site-web/tp-3", "TP 3"],
-            ["/schl/s2-creation-design-site-web/epreuve-final/materiel", "Epreuve Final"],
+            ["/schl/s2-crtn-dsgn-st-wb/tp-1", "TP 1"],
+            ["/schl/s2-crtn-dsgn-st-wb/tp-2", "TP 2"],
+            ["/schl/s2-crtn-dsgn-st-wb/tp-3", "TP 3"],
+            ["/schl/s2-crtn-dsgn-st-wb/epreuve-final/materiel", "Epreuve Final"],
         ],
     "Javascript" => [
             ["/schl/s2-js/tp-1", "TP 1"],
@@ -65,9 +65,9 @@ $schoolProjects = [
             ["/schl/s4-pw-1/sprint-5/guide-d-utilisation.pdf", "Guide d'Utilisation"],
         ],
         "Techniques de programmation avancée (Vue.js, React)" => [
-            ["/schl/s4-tap/tp-1/frontend", "TP 1"],
-            ["/schl/s4-tap/tp-2/public", "TP 2"],
-            ["/schl/s4-tap/tp-3/client/public", "TP 2"],
+            ["/schl/s4-t-a-p/tp-1/frontend", "TP 1"],
+            ["/schl/s4-t-a-p/tp-2/public", "TP 2"],
+            ["/schl/s4-t-a-p/tp-3/client/public", "TP 2"],
         ],
     ],
 ];
