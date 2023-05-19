@@ -9,7 +9,7 @@
 </head>
 <body>
 <div>
-    this is a work in progress :)
+    This is a work in progress :)
     <span>
         in this page, some links might not work properly
     </span>
@@ -20,7 +20,7 @@
         Touati Saddek | Full stack developer
     </h1>
     <span>
-        I have an eye on UI/UX | and some security :)
+        I have an eye on UI/UX | sometimes on security too :)
     </span>
 </header>
 

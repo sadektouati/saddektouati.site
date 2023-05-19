@@ -1,11 +1,16 @@
 <?php
 $schoolProjects = [
-    'Session 4' => [    
+    'jan 2023 - mai 2023' => [    
         "Cadriciel (Laravel)" => [
             ["/schl/s4-laravel/exercice-1", "Exercice 1"],
             ["/schl/s4-laravel/exercice-2", "Exercice 2"],
             ["/schl/s4-laravel/tp-1", "Tp 1"],
             ["/schl/s4-laravel/tp-2", "Tp 2"],
+        ],
+        "Techniques de programmation avancée (Vue.js, React)" => [
+            ["/schl/s4-t-a-p/tp-1/frontend", "TP 1"],
+            ["/schl/s4-t-a-p/tp-2/public", "TP 2"],
+            ["/schl/s4-t-a-p/tp-3/client/public", "TP 2"],
         ],
         "Projet web 1" => [
             ["/schl/s4-pw-1/charte-projet/charte-projet.pdf", "Charte Projet"],
@@ -14,14 +19,9 @@ $schoolProjects = [
             ["/schl/s4-pw-1/sprint-3/stampe/public", "Sprint 3"],
             ["/schl/s4-pw-1/sprint-5/guide-d-utilisation.pdf", "Guide d'Utilisation"],
         ],
-        "Techniques de programmation avancée (Vue.js, React)" => [
-            ["/schl/s4-t-a-p/tp-1/frontend", "TP 1"],
-            ["/schl/s4-t-a-p/tp-2/public", "TP 2"],
-            ["/schl/s4-t-a-p/tp-3/client/public", "TP 2"],
-        ],
     ],
 
-    'Session 3' => [
+    'mai 2022 - aout 2022' => [
         "Programmation web Avancée (PHP, SQL, MVC)" => [
             ["/schl/s3-prgrmtn-w-a/exercice-1", "Exercice 1"],
             ["/schl/s3-prgrmtn-w-a/exercice-2", "Exercice 2"],
@@ -41,7 +41,7 @@ $schoolProjects = [
         ],
     ],
 
-    'Session 2' => [
+    'jan 2022 - mai 2022' => [
         "Création et désign site web (Désign UI et CSS)" => [
             ["/schl/s2-crtn-dsgn-st-wb/tp-1", "TP 1"],
             ["/schl/s2-crtn-dsgn-st-wb/tp-2", "TP 2"],
@@ -61,7 +61,7 @@ $schoolProjects = [
         ]
     ],
 
-    'Session 1' => [
+    'oct 2021 - jan 2022' => [
         "Initiation a la création de sites web (HTML, CSS)" => [
             ["/schl/s1-c-s-w/portfolio-1", "Portfolio 1"],
             ["/schl/s1-c-s-w/portfolio-2", "Portfolio 2"],

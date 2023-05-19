@@ -117,8 +117,13 @@ main{
 }
 
 main h2{
-    font-size: 1.5rem;
-    color: rebeccapurple;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: monospace;
+    letter-spacing: 0;
+    color: #a65af2;
+    background-color: #f4edfe;
+    padding: 0 1rem;
 }
 
 main h2 sub{

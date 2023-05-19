@@ -1,0 +1,370 @@
+:root {
+    /* polices */
+    --police-corp-principal: 'Source Sans Pro', sans-serif;
+    --police-titre: 'Playfair Display', serif;
+
+
+    /* coleurs */
+
+
+    --blue-principal : #1c51d5;
+    --blue-secondaire : #bad0dd;
+    --gris-principal : #CFD2D6;    
+    --jaune-secondair: #efeee1;
+
+
+    --rouge-principal : #CF142B;
+    --rouge-secondaire: #ff2f2f;
+    --rouge-trenaire: #ff6060;
+
+
+    --texte-principal: #221f1f;
+    --texte-gris: #484848;
+    --texte-blanc-casse: #e0d5d5;
+    --texte-blanc: #fff;
+
+
+    /* font-size et gutter, source type-scale.com #####################################################################*/
+    /* font size scale, 1.250 – Major Third ###########################################################################*/
+    --texte-1000: 4.5rem;
+    --texte-900: 3.052rem;
+    --texte-800: 2.441rem;
+    --texte-700: 1.953rem;
+    --texte-600: 1.563rem;
+    --texte-500: 1.25rem;
+    --texte-400: 1rem;
+    --texte-300: 0.8rem;
+    --texte-200: 0.64rem;
+    --texte-100: 0.512rem;
+
+
+    /* gutter 1.414 – Augmented Fourth ##################################################################################*/
+    --goutiere-1000: 5.653rem;
+    --goutiere-800: 3.998rem;
+    --goutiere-600: 2.827rem;
+    --goutiere-400: 1.999rem;
+    --goutiere-300: 1.414rem;
+    --goutiere-200: 1rem;
+    --goutiere-100: 0.707rem;
+
+    line-height: 1.5625;
+    color: var(--texte-principal);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--police-corp-principal);
+    font-size: var(--texte-500);
+}
+
+img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    padding: 0.2rem;
+}
+
+p{
+    max-width: 30rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--police-sous-titre);
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--texte-gris);
+    max-width: 40ch;
+}
+
+h1 {
+    font-family: var(--police-titre);
+    font-size: var(--texte-800);
+    max-width: 40ch;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: var(--texte-700);
+}
+
+h3 {
+    font-size: var(--texte-600);
+}
+
+h4 {
+    font-size: var(--texte-400);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: var(--goutiere-600);
+    gap: var(--goutiere-1000);
+    width: min(90%, 1280px);
+    margin: auto;
+}
+
+main > * > * + * {
+    margin-top: var(--goutiere-200);
+}
+
+.titre-document{
+    color: var(--blue-principal);
+}
+.navigation-primaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-primaire nav{
+    display: flex;
+    align-items: center;
+    background-color: var(--blue-principal);
+    padding: var(--goutiere-200);
+}
+
+.navigation-primaire nav >* + *{
+    margin-inline-start: var(--goutiere-200);
+    padding: var(--goutiere-200);
+}
+
+.navigation-primaire nav a{
+    color: var(--texte-blanc-casse);
+    font-size: var(--texte-400);
+    text-decoration: none;
+}
+
+.navigation-primaire nav a:hover{
+    color: var(--jaune-secondair);
+}
+
+.navigation-primaire .logo{
+    width: 10rem;
+    margin-inline-end: var(--goutiere-600);
+}
+
+.image-hero img{
+    height: 25rem;
+}
+
+.typography{
+    display: flex;
+    gap: var(--goutiere-200);
+    margin-top: 0;
+    color: #00247d;
+}
+
+.palette{
+    display: flex;
+    gap: var(--goutiere-300);
+}
+
+.palette > div{
+    text-align: center;
+    font-weight: bold;
+}
+
+.palette > div > div {
+    height: 8rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-bottom: var(--goutiere-200);
+}
+
+.conteneur-icones{
+    width: 49%;
+    padding: var(--goutiere-100);
+    display: inline-flex;
+    flex-direction: column;
+    gap: var(--goutiere-300);
+}
+
+.conteneur-icones + .conteneur-icones{
+    background-color: var(--blue-principal);
+}
+
+.icones{
+    display: flex;
+    gap: var(--goutiere-300);
+}
+
+.icones span{
+    display: block;
+    width: 3.5rem;
+}
+
+.icones span img + img, .icones span:hover img{
+    display: none;
+}
+
+.icones span:hover img + img{
+    display: block;
+}
+
+
+.boutons, .boutons div{
+    display: flex;
+    gap: var(--goutiere-600);
+}
+
+.boutons div{
+    padding: var(--goutiere-200);
+    gap: var(--goutiere-100);
+}
+
+.main-action, .secondary-action{
+    display: inline-block;
+    cursor: pointer;
+    padding: var(--goutiere-100) var(--goutiere-300);
+    background-color: var(--rouge-principal);
+    background-clip: border-box;
+    border: 2px solid transparent;
+    color: var(--texte-blanc);
+    font-weight: bold;
+    border-radius: .25rem;
+}
+
+.secondary-action{
+    background-color: transparent;
+    color: var(--rouge-principal);
+    border: 2px solid;
+
+}
+
+.main-action.blue{
+    background-color: var(--blue-principal);
+}
+.secondary-action.blue{
+    color: var(--blue-principal);
+}
+
+.main-action.iron{
+    color: var(--blue-principal);
+    background-color: var(--jaune-secondair);
+}
+.secondary-action.iron{
+    color: var(--jaune-secondair);
+}
+
+.main-action.iron{
+    color: var(--blue-principal);
+    background-color: var(--jaune-secondair);
+}
+.secondary-action.iron{
+    color: var(--jaune-secondair);
+}
+
+.main-action.disactive{
+    cursor:not-allowed;
+    background-color: var(--blue-secondaire);
+}
+.secondary-action.disactive{
+    cursor:not-allowed;
+    color: var(--blue-secondaire);
+}
+
+.main-action:hover, .secondary-action:hover, .main-action:focus, .secondary-action:focus{
+    opacity: .9;    
+}
+
+.boutons-fond{
+    background-color: var(--blue-principal);
+}
+
+
+.controles{
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--goutiere-600);
+}
+
+.controles div{
+    display: flex;
+    flex-flow: column;
+}
+
+.controles div:hover label, .controles div:focus-within label{
+    color: var(--blue-principal);
+}
+
+input:not([type=radio], [type=checkbox]), select{
+    font: inherit;
+    width: 15rem;
+    padding: 0 var(--goutiere-300);
+    height: 3rem;
+    border-radius: 0.25rem;
+    border: 2px solid var(--texte-gris);
+    outline: none;
+}
+
+:is(input, select).erreur{
+    color: var(--rouge-principal);
+    border: 2px solid;
+}
+
+:is(input, select).requi{
+    color: orange;
+    border: 2px solid;
+}
+
+:is(input, select).disactive{
+    cursor: not-allowed;
+    border: 2px solid var(--blue-secondaire);
+    background-color: var(--gris-principal);
+}
+
+.composant{
+    display: flex;
+    gap: var(--goutiere-400);
+}
+
+.carte{
+    position: relative;
+    width: 25rem;
+    display: flex;
+    flex-flow: column;
+    gap: var(--goutiere-200);
+    padding: var(--goutiere-200);
+    border: 1px solid var(--blue-secondaire);
+    border-radius: 5px;
+}
+
+.carte.desactive::after{
+    content: "";
+    position: absolute;
+    inset: 0 0 0 0;
+    background-color: var(--blue-secondaire);
+    opacity: .5;
+}
+
+.carte .main-action{
+    width: 16rem;
+    margin-inline-start: auto;
+    text-align: center;
+}
+
+.aime-lord span:first-of-type{
+    position: absolute;
+    background-color: var(--rouge-principal);
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: var(--goutiere-200);
+    text-align: center;
+    color: var(--jaune-secondair);
+    opacity: .95;
+}
