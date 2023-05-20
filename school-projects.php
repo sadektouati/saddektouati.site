@@ -63,8 +63,8 @@ $schoolProjects = [
 
     'oct 2021 - jan 2022' => [
         "Initiation a la création de sites web (HTML, CSS)" => [
-            ["/schl/s1-c-s-w/portfolio-1", "Portfolio 1"],
-            ["/schl/s1-c-s-w/portfolio-2", "Portfolio 2"],
+            ["/schl/s1-csw/portfolio-1", "Portfolio 1"],
+            ["/schl/s1-csw/portfolio-2", "Portfolio 2"],
         ],
         "Introduction à la programmation (PHP)" => [
             ["/schl/s1-prgrmtn/affichage-notes", "Affichage Notes"],
