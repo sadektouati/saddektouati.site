@@ -54,7 +54,7 @@ $schoolProjects = [
         ],
     "Programmation web (PHP, SQL)" => [
             ["/schl/s2-prgrmtn/blue-bonnet", "Blue Bonnet"],
-            ["/schl/s2-prgrmtn/critiques-films-mvc/vues", "Critiques Film"],
+            ["/schl/s2-prgrmtn/critiques-films-mvc", "Critiques Film"],
             ["/schl/s2-prgrmtn/site-critiques-films", "Site Critiques Film"],
             ["/schl/s2-prgrmtn/introduction-mvc", "Introduction MVC"],
             ["/schl/s2-prgrmtn/questionnaire-session", "Questionnaire Session"],
