@@ -68,12 +68,6 @@
         </p>
     </div>
 
-    <div>
-        <p>
-        Merci de votre visite et j'espère avoir l'occasion de travailler avec vous bientôt !
-        </p>
-    </div>
-
 </section>
 
 <?php include('school-projects.php'); ?>
@@ -90,8 +84,20 @@
                     <div class="scrollable">
                         <?php foreach ($works as $work) { ?>
                             <div>
-                                <p><?= $work[2]??"this is an explanation" ?></p>
+                            <?php
+                            if(is_array($work[1])){ ?>
+                                <span>
+                                 <?= $work[1][0];?> :
+                            <?php
+                                foreach (['zonning', 'wireframe', 'maquette'] as $w) { ?>
+                                   <a href="<?= $work[0] ?>/<?= $w ?>" target="_blank"><?= $w ?></a>
+                                <?php } ?>
+                                </span>
+                                <?php
+                            }else{ ?>
                                 <a href="<?= $work[0] ?>" target="_blank"><?= $work[1] ?></a>
+                                <?php } ?>
+                            <p><?= $work[2]??"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, obcaecati itaque illum natus mollitia aut sequi recusandae, nulla alias quae nam accusamus! Similique, numquam?" ?></p>
                             </div>
                         <?php } ?>
                     </div>
@@ -101,5 +107,17 @@
     <?php } ?>
     
 </main>
+
+<footer>
+    <div>
+        <header>
+            Merci de votre visite
+        </header>
+        <p>
+            j'espère avoir l'occasion de travailler avec vous bientôt !
+        </p>
+    </div>
+</footer>
+
 </body>
 </html>
