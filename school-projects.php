@@ -16,7 +16,7 @@ $schoolProjects = [
             ["/schl/s4-pw-1/charte-projet/charte-projet.pdf", "Charte Projet"],
             ["/schl/s4-pw-1/sprint-1/webfiles/public", "Sprint 1"],
             ["/schl/s4-pw-1/sprint-2/stampe/public", "Sprint 2"],
-            ["/schl/s4-pw-1/sprint-3/stampe/public", "Sprint 3"],
+            ["https://stampe.saddektouati.site", "Sprint 3"],
             ["/schl/s4-pw-1/sprint-4/guide-d-utilisation.pdf", "Guide d'Utilisation"],
         ],
     ],
