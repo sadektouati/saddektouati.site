@@ -17,7 +17,7 @@ $schoolProjects = [
             ["/schl/s4-pw-1/sprint-1/webfiles/public", "Sprint 1"],
             ["/schl/s4-pw-1/sprint-2/stampe/public", "Sprint 2"],
             ["/schl/s4-pw-1/sprint-3/stampe/public", "Sprint 3"],
-            ["/schl/s4-pw-1/sprint-5/guide-d-utilisation.pdf", "Guide d'Utilisation"],
+            ["/schl/s4-pw-1/sprint-4/guide-d-utilisation.pdf", "Guide d'Utilisation"],
         ],
     ],
 
