@@ -98,7 +98,7 @@ body > section div {
 }
 
 body > section div:first-of-type, body > section div:last-of-type {
-    width: 100%;
+    min-width: 100%;
 }
 
 body > section div h3{
