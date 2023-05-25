@@ -2,10 +2,10 @@
 $schoolProjects = [
     'jan 2023 - mai 2023' => [    
         "Cadriciel (Laravel)" => [
-            ["/schl/s4-laravel/exercice-1", "Exercice 1"],
-            ["/schl/s4-laravel/exercice-2", "Exercice 2"],
-            ["/schl/s4-laravel/tp-1", "Tp 1"],
-            ["/schl/s4-laravel/tp-2", "Tp 2"],
+            ["https://github.com/sadektouati/school-laravel-exercice-1", "Exercice 1"],
+            ["/schl/s4-laravel/exercice-2/validation-laravel.pdf", "Exercice 2"],
+            ["https://github.com/sadektouati/school-laravel-tp-1", "Tp 1"],
+            ["https://github.com/sadektouati/school-laravel-tp-2", "Tp 2"],
         ],
         "Techniques de programmation avancée (Vue.js, React)" => [
             ["https://github.com/sadektouati/school-technique-avancee-en-programmation-tp-1", "TP 1"],
