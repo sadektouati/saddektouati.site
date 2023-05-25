@@ -27,9 +27,28 @@
 <section>
 
     <div>
+        <h3>Me!</h3>
+        <p>
+            Je suis un développeur web passionné, doté de solides connaissances dans le domaine du web. J'apprends rapidement et je suis attentif aux détails.
+
+            Je possède une expertise technique solide en HTML, CSS et JavaScript, ainsi qu'une compréhension approfondie des principes fondamentaux de la conception web et de l'architecture MVC. Je suis capable de créer des interfaces utilisateur attrayantes et des expériences utilisateur exceptionnelles.
+
+            De plus, je suis en mesure de comprendre rapidement les défis techniques et de trouver des solutions efficaces pour les résoudre. Je suis capable de décomposer des problèmes complexes en tâches plus petites et de les résoudre de manière méthodique.
+
+            Ma curiosité et mon désir d'apprendre sont forts. Je suis toujours prêt à explorer de nouvelles idées et à adopter de nouvelles technologies pour améliorer mes compétences.
+
+            Je suis également à l'aise dans la collaboration avec des designers, des spécialistes du marketing et d'autres développeurs afin d'atteindre des objectifs communs.
+
+            En ce qui concerne mon travail, je suis autonome et capable de travailler de manière indépendante pour atteindre les objectifs fixés et respecter les délais.
+
+            Je suis ouvert aux commentaires constructifs et aux améliorations. Je suis prêt à ajuster mon approche en fonction des besoins changeants du projet.
+        </p>
+    </div>
+
+    <div>
         <h3>PHP</h3>
         <p>
-            Je suis un développeur web passionné, spécialisé dans le développement PHP avec le framework Laravel. Avec une solide expérience dans la création de sites web dynamiques et interactifs, je suis constamment à la recherche de nouvelles façons de repousser les limites de la technologie.
+            Je suis spécialisé dans le développement PHP avec le framework Laravel. Avec une solide expérience dans la création de sites web dynamiques et interactifs, je suis constamment à la recherche de nouvelles façons de repousser les limites de la technologie.
         </p>
     </div>
 
@@ -41,9 +60,9 @@
     </div>
 
     <div>
-        <h3>CSS</h3>
+        <h3>CSS/ESNext</h3>
         <p>
-            En ce qui concerne le front-end, je suis compétent en CSS et JavaScript, et j'ai développé une expertise particulière en Vue.js, un framework JavaScript progressif qui offre une expérience utilisateur fluide et réactive.
+            En ce qui concerne le front-end, je suis compétent en CSS et JavaScript, chose qui me permet de travailler avec tous les framework, j'ai développé une expertise particulière en Vue.js, un framework JavaScript progressif qui offre une expérience utilisateur fluide et réactive.
         </p>
     </div>
 
@@ -55,7 +74,7 @@
     </div>
 
     <div>
-        <h3>opportunités</h3>
+        <h3>Opportunités</h3>
         <p>
             Je suis toujours à l'affût des dernières tendances et technologies de l'industrie, ce qui me permet de rester à jour et de proposer des solutions modernes et innovantes à mes clients.
         </p>

@@ -26,7 +26,7 @@ $schoolProjects = [
             ["/schl/s3-prgrmtn-w-a/exercice-1", "Exercice 1"],
             ["/schl/s3-prgrmtn-w-a/exercice-2", "Exercice 2"],
             ["/schl/s3-prgrmtn-w-a/tp-1", "Image de Jour"],
-            ["/schl/s3-prgrmtn-w-a/tp-2", "Image de Jour Improved"],
+            ["nestor.saddektouati.site", "Nestor"],
             ["/schl/s3-prgrmtn-w-a/examen-final", "Examen Final"],
         ],
         "UI/UX appliquée au site web" => [
