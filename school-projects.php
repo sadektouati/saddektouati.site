@@ -14,7 +14,7 @@ $schoolProjects = [
         ],
         "Projet web 1" => [
             ["/schl/s4-pw-1/charte-projet/charte-projet.pdf", "Charte Projet"],
-            ["https://stampe.saddektouati.site", "Sprint 3"],
+            ["https://stampe.saddektouati.site", "sprint 1, 2, 3: Stampe"],
             ["/schl/s4-pw-1/sprint-4/guide-d-utilisation.pdf", "Guide d'Utilisation"],
         ],
     ],
