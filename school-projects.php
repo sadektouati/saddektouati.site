@@ -8,9 +8,9 @@ $schoolProjects = [
             ["/schl/s4-laravel/tp-2", "Tp 2"],
         ],
         "Techniques de programmation avancée (Vue.js, React)" => [
-            ["/schl/s4-t-a-p/tp-1/frontend", "TP 1"],
-            ["/schl/s4-t-a-p/tp-2/public", "TP 2"],
-            ["/schl/s4-t-a-p/tp-3/client/public", "TP 2"],
+            ["https://github.com/sadektouati/school-technique-avancee-en-programmation-tp-1", "TP 1"],
+            ["https://github.com/sadektouati/school-technique-avancee-en-programmation-tp-2", "TP 2"],
+            ["https://github.com/sadektouati/school-technique-avancee-en-programmation-tp-3", "TP 3"],
         ],
         "Projet web 1" => [
             ["/schl/s4-pw-1/charte-projet/charte-projet.pdf", "Charte Projet"],
