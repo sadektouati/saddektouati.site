@@ -97,6 +97,10 @@ body > section div {
     position: relative;
 }
 
+body > section div:first-of-type, body > section div:last-of-type {
+    width: 100%;
+}
+
 body > section div h3{
     display: inline-block;
     background: #8a2be2f2;

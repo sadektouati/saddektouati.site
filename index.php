@@ -74,14 +74,11 @@
     </div>
 
     <div>
-        <h3>Opportunités</h3>
+        <h3>Invitation</h3>
         <p>
             Je suis toujours à l'affût des dernières tendances et technologies de l'industrie, ce qui me permet de rester à jour et de proposer des solutions modernes et innovantes à mes clients.
         </p>
-    </div>
 
-    <div>
-        <h3>Invitation</h3>
         <p>
             Explorez mon portfolio pour découvrir les projets sur lesquels j'ai travaillé et pour en savoir plus sur mes compétences et mes réalisations. N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez discuter de votre prochain projet. Je serai ravi de collaborer avec vous pour concrétiser votre vision.
         </p>
