@@ -25,9 +25,9 @@ $schoolProjects = [
         "Programmation web Avancée (PHP, SQL, MVC)" => [
             ["/schl/s3-prgrmtn-w-a/exercice-1", "Exercice 1"],
             ["/schl/s3-prgrmtn-w-a/exercice-2", "Exercice 2"],
-            ["/schl/s3-prgrmtn-w-a/tp-1", "Image de Jour"],
-            ["https://nestor.saddektouati.site", "Nestor"],
-            ["/schl/s3-prgrmtn-w-a/examen-final", "Examen Final"],
+            ["/schl/s3-prgrmtn-w-a/tp-1", "tp-1: Image de Jour"],
+            ["https://nestor.saddektouati.site", "tp-2: Nestor"],
+            ["https://memo.saddektouati.site", "examen final: Memo"],
         ],
         "UI/UX appliquée au site web" => [
             ["/schl/s3-ux-ui/1-analyse-du-devis/1-nalyse-du-devis.pdf", "Analyse de Devis"],
