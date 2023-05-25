@@ -113,7 +113,10 @@
                             }else{ ?>
                                 <a href="<?= $work[0] ?>" target="_blank"><?= $work[1] ?></a>
                                 <?php } ?>
-                            <p><?= $work[2]??"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, obcaecati itaque illum natus mollitia aut sequi recusandae, nulla alias quae nam accusamus! Similique, numquam?" ?></p>
+                            <header>
+                                <?= implode(', ', $work[2]) ?>
+                            </header>
+                            <p><?= $work[3]??"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, obcaecati itaque illum natus mollitia aut sequi recusandae, nulla alias quae nam accusamus! Similique, numquam?" ?></p>
                             </div>
                         <?php } ?>
                     </div>

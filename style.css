@@ -160,10 +160,6 @@ main > section > article + article{
     margin-top: 2rem;
 }
 
-main > section > article > div{
-    
-}
-
 main > section > article > div > div{
     box-shadow: 0 0 4px 0px #bcbad1;
     padding: 0.75rem;
@@ -171,22 +167,32 @@ main > section > article > div > div{
     background-color: white;
     min-width: min(25rem, 90%);
     max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem
 }
 
 main > section > article > div > div a, main > section > article > div > div span{
     color: #8a2be2;
     text-decoration: none;
-    font-size: .8rem;
     line-height: 1;
     display: block;
     text-transform: lowercase;
 }
+
 main > section > article > div > div span{
     display: flex;
     gap: .25rem;
     color: inherit;
 }
 
+main > section > article > div > div header{
+    padding: 0.25em 0;
+    line-height: 1;
+    font-size: .7em;
+    color: #887d92;
+    border-bottom: 1px solid #d3d3d359;
+}
 
 body > footer {
     background: radial-gradient(#a65af2, transparent);
