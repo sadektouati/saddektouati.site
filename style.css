@@ -173,15 +173,7 @@ main > section > article > div > div{
     gap: 0.25rem
 }
 
-main > section > article h2{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: transparent;
-    padding: 0;
-}
-
-main > section > article h2 a, main > section > article h2 span{
+main > section > article > div > div a, main > section > article > div > div span{
     color: #8a2be2;
     text-decoration: none;
     line-height: 1;
@@ -190,8 +182,12 @@ main > section > article h2 a, main > section > article h2 span{
 }
 
 a.github{
-    font-size: .8rem;
-    color: #b361ff;
+    margin: 0 0 0 auto;
+    display: block;
+    line-height: 1;
+    font-size: .7em;
+    color: rgb(161, 159, 157);
+    text-decoration: underline;
 }
 
 main > section > article > div > div span{
