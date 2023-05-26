@@ -100,7 +100,8 @@
                     <div class="scrollable">
                         <?php foreach ($works as $work) { ?>
                             <div>
-                            <?php
+                                <h2>
+                                <?php
                             if(is_array($work[1])){ ?>
                                 <span>
                                  <?= $work[1][0];?> :
@@ -110,9 +111,13 @@
                                 <?php } ?>
                                 </span>
                                 <?php
-                            }else{ ?>
+                                }else{ ?>
                                 <a href="<?= $work[0] ?>" target="_blank"><?= $work[1] ?></a>
                                 <?php } ?>
+                                <a href="<?= $work[0] ?>" target="_blank" class="github">
+                                    sur github
+                                </a>
+                                </h2>
                             <header>
                                 <?= implode(', ', $work[2]) ?>
                             </header>

@@ -161,6 +161,7 @@ main > section > article + article{
 }
 
 main > section > article > div > div{
+    position: relative;
     box-shadow: 0 0 4px 0px #bcbad1;
     padding: 0.75rem;
     border-radius: .25rem;
@@ -172,12 +173,25 @@ main > section > article > div > div{
     gap: 0.25rem
 }
 
-main > section > article > div > div a, main > section > article > div > div span{
+main > section > article h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: transparent;
+    padding: 0;
+}
+
+main > section > article h2 a, main > section > article h2 span{
     color: #8a2be2;
     text-decoration: none;
     line-height: 1;
     display: block;
     text-transform: lowercase;
+}
+
+a.github{
+    font-size: .8rem;
+    color: #b361ff;
 }
 
 main > section > article > div > div span{

@@ -50,8 +50,8 @@ $schoolProjects = [
             ["/schl/s2-crtn-dsgn-st-wb/epreuve-final/materiel", "Epreuve Final", ['Git', 'CSS', 'HTML', 'Cube CSS', 'Responsive', 'Wireframe', 'Maquette']],
         ],
     "Javascript" => [
-            ["/schl/s2-js/tp-1", "TP 1", ['Git', 'JS']],
-            ["/schl/s2-js/tp-2", "TP 2", ['Git', 'JS']],
+            ["/schl/s2-js/tp-1", "TP 1", ['Git', 'JS', 'POO']],
+            ["/schl/s2-js/tp-2", "TP 2", ['Git', 'JS', 'POO']],
         ],
     "Programmation web (PHP, SQL)" => [
             ["/schl/s2-prgrmtn/blue-bonnet", "Blue Bonnet", ['Git', 'Php', 'CSS', 'HTML']],
