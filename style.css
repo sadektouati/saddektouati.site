@@ -189,6 +189,10 @@ a.github{
     color: rgb(161, 159, 157);
     text-decoration: underline;
 }
+a.no-github{
+    text-decoration: line-through;
+    cursor: not-allowed;
+}
 
 main > section > article > div > div span{
     display: flex;

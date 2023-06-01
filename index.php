@@ -101,25 +101,25 @@
                         <?php foreach ($works as $work) { ?>
                             <div>
                                 <?php
-                            if(is_array($work[1])){ ?>
+                            if(is_array($work['tech'])){ ?>
                                 <span>
-                                 <?= $work[1][0];?> :
+                                 <?= $work['tech'][0]?> :
                             <?php
                                 foreach (['zonning', 'wireframe', 'maquette'] as $w) { ?>
-                                   <a href="<?= $work[0] ?>/<?= $w ?>" target="_blank"><?= $w ?></a>
+                                   <a href="<?= $work['link'] ?>/<?= $w ?>" target="_blank"><?= $w ?></a>
                                 <?php } ?>
                                 </span>
                                 <?php
                                 }else{ ?>
-                                <a href="<?= $work[0] ?>" target="_blank"><?= $work[1] ?></a>
+                                <a href="<?= $work['link'] ?>" target="_blank"><?= $work[1] ?></a>
                                 <?php } ?>
                             <header>
-                                <?= implode(', ', $work[2]) ?>
+                                <?= implode(', ', $work['tech']) ?>
                             </header>
-                            <p><?= $work[3]??"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, obcaecati itaque illum natus mollitia aut sequi recusandae, nulla alias quae nam accusamus! Similique, numquam?" ?></p>
-                            <a href="<?= $work[0] ?>" target="_blank" class="github">
+                            <p><?= $work[4]??"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, obcaecati itaque illum natus mollitia aut sequi recusandae, nulla alias quae nam accusamus! Similique, numquam?" ?></p>
+                            <a <?= empty($work['github']) ? '' : ' href="' . $work['github'] . '"' ?> target="_blank" class="github <?= empty($work['github']) ? 'no-github' : '' ?>">
                                     voir sur github
-                                </a>
+                            </a>
                             </div>
                         <?php } ?>
                     </div>
