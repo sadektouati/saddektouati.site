@@ -25,7 +25,7 @@
     <span>
         I have an eye on UI/UX | sometimes on security too :)
     </span>
-    <img src="images/mission.jpg" alt="my computer">
+    <img src="images/mission-min.jpg" alt="my computer">
 </header>
 
 
