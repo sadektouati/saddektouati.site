@@ -17,22 +17,22 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
-    background-image: linear-gradient(90deg, rgb(219 214 255 / 24%), transparent);
-    padding: 2rem;
-    gap: 4rem;
-    display: flex;
-    flex-flow: column;
+    padding: 0;
+    background-image: url(images/background.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 .scrollable {
     display: flex;
     flex-flow: row;
-    gap: 2rem;
+    gap: 1rem;
     overflow-x: auto;
     justify-content: flex-start;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
-    padding: 1rem;
+    padding: 0;
     max-width: 100%;
 }
 
@@ -49,59 +49,76 @@ body {
     }
 }
 
-body > * {
+body > div {
+    background-color: #53009ade;
+    gap: 5rem;
+    display: flex;
+    flex-flow: column;
+}
+
+body > div > * {
     width: min(1200px, 100%);
     margin: auto;
 }
 
-body > div{
-    background-color: #782121;
+body > div > div{
+    background-color: #df2424cc;
     padding: 1rem;
     text-align: center;
     font-size: 1.3rem;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1;
 }
-body > div span{
+body > div > div span{
     font-size: 1rem;
 }
 
-body > header{
-    color: blueviolet;
+body > div > header > :not(img){
+    color: #ffffffd6;
+    padding: 0 1rem;
+    display: block;
 }
 
-body > header h1{
+body > div > header h1{
     font-size: 2rem;
     line-height: 1;
 }
-body > header span{
+body > div > header span{
     font-size: .8em;
 }
 
-body > section {
+body > div > header > img{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+body > div > section {
     display: flex;
     flex-flow: row wrap;
     gap: 3rem 2rem;
 }
 
-body > section div {
-    font-size: 1.25rem;
+body > div > section div {
+    font-size: 1rem;
     border: 1px solid #8a2be23d;
     padding: 2rem;
     flex: 1 1 30rem;
-    background: rebeccapurple;
-    color: gainsboro;
-    border-radius: .25rem;
+    background: #d7acff;
+    border-radius: 0.25rem;
     border-top-left-radius: 2rem;
     position: relative;
 }
 
-body > section div:first-of-type, body > section div:last-of-type {
+body > div > section div:first-of-type, body > div > section div:last-of-type {
     min-width: 100%;
 }
 
-body > section div h3{
+body > div > section div h3{
     display: inline-block;
     background: #8a2be2f2;
     color: white;
@@ -112,6 +129,15 @@ body > section div h3{
     top: -1rem;
     left: 1.5rem;
 }
+
+body > div > section p + label{
+    color: gray;
+    text-decoration: underline;
+ }
+
+ body > div > section div p + label ~ p{
+    display: none;
+ }
 
 main{
     display: flex;
@@ -137,7 +163,7 @@ main h2 sub{
 
 main h3{
     font-size: 1.05rem;
-    color: rgb(96, 94, 92);
+    color: #fff;
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -166,7 +192,7 @@ main > section > article > div > div{
     padding: 0.75rem;
     border-radius: .25rem;
     background-color: white;
-    min-width: min(25rem, 90%);
+    min-width: min(25rem, 83%);
     max-width: 30rem;
     display: flex;
     flex-direction: column;
@@ -175,7 +201,6 @@ main > section > article > div > div{
 
 main > section > article > div > div a, main > section > article > div > div span{
     color: #8a2be2;
-    text-decoration: none;
     line-height: 1;
     display: block;
     text-transform: lowercase;
@@ -196,6 +221,7 @@ a.no-github{
 
 main > section > article > div > div span{
     display: flex;
+    flex-flow: row wrap;
     gap: .25rem;
     color: inherit;
 }
@@ -208,12 +234,12 @@ main > section > article > div > div header{
     border-bottom: 1px solid #d3d3d359;
 }
 
-body > footer {
+body > div > footer {
     background: radial-gradient(#a65af2, transparent);
     padding: 1rem;
 }
 
-body > footer > div {
+body > div > footer > div {
     max-width: 30rem;
     height: 15rem;
     border-radius: 50%;
@@ -226,7 +252,19 @@ body > footer > div {
     background: rgb(255, 255, 255);
     margin: auto;
 }
-body > footer > div header {
+body > div > footer > div header {
     font-size: 1.75rem;
     color: rebeccapurple;
+}
+
+@media screen and (min-width: 768px) {
+
+    body > div > section p + label{
+        color: gray;
+        text-decoration: underline;
+     }
+    
+     body > div > section div p + label ~ p{
+        display: none;
+     }
 }

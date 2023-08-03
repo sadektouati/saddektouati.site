@@ -8,12 +8,15 @@
     <title>Saddek touati</title>
 </head>
 <body>
+
+<div>
 <div>
     This is a work in progress :)
     <span>
         in this page, some links might not work properly
     </span>
 </div>
+
 
 <header>
     <h1>
@@ -22,7 +25,9 @@
     <span>
         I have an eye on UI/UX | sometimes on security too :)
     </span>
+    <img src="images/mission.jpg" alt="my computer">
 </header>
+
 
 <section>
 
@@ -30,17 +35,24 @@
         <h3>Me!</h3>
         <p>
             Je suis un développeur web passionné, doté de solides connaissances dans le domaine du web. J'apprends rapidement et je suis attentif aux détails.
-
+            </p>
+            <label class="_readMore">lire plus...</label>
+            <p>
             Je possède une expertise technique solide en HTML, CSS et JavaScript, ainsi qu'une compréhension approfondie des principes fondamentaux de la conception web et de l'architecture MVC. Je suis capable de créer des interfaces utilisateur attrayantes et des expériences utilisateur exceptionnelles.
-
+            </p>
+            <p>
             De plus, je suis en mesure de comprendre rapidement les défis techniques et de trouver des solutions efficaces pour les résoudre. Je suis capable de décomposer des problèmes complexes en tâches plus petites et de les résoudre de manière méthodique.
-
+            </p>
+            <p>
             Ma curiosité et mon désir d'apprendre sont forts. Je suis toujours prêt à explorer de nouvelles idées et à adopter de nouvelles technologies pour améliorer mes compétences.
-
+            </p>
+            <p>
             Je suis également à l'aise dans la collaboration avec des designers, des spécialistes du marketing et d'autres développeurs afin d'atteindre des objectifs communs.
-
+            </p>
+            <p>
             En ce qui concerne mon travail, je suis autonome et capable de travailler de manière indépendante pour atteindre les objectifs fixés et respecter les délais.
-
+            </p>
+            <p>
             Je suis ouvert aux commentaires constructifs et aux améliorations. Je suis prêt à ajuster mon approche en fonction des besoins changeants du projet.
         </p>
     </div>
@@ -78,7 +90,7 @@
         <p>
             Je suis toujours à l'affût des dernières tendances et technologies de l'industrie, ce qui me permet de rester à jour et de proposer des solutions modernes et innovantes à mes clients.
         </p>
-
+        <label class="_readMore">lire plus...</label>
         <p>
             Explorez mon portfolio pour découvrir les projets sur lesquels j'ai travaillé et pour en savoir plus sur mes compétences et mes réalisations. N'hésitez pas à me contacter si vous avez des questions ou si vous souhaitez discuter de votre prochain projet. Je serai ravi de collaborer avec vous pour concrétiser votre vision.
         </p>
@@ -141,5 +153,13 @@
     </div>
 </footer>
 
+</div>
 </body>
+<script>
+        document.querySelectorAll('._readMore').forEach(element => {
+            element.addEventListener('click', (evnt)=>{
+                evnt.target.remove();
+            })
+        });
+</script>
 </html>
