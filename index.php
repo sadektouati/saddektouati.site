@@ -25,7 +25,9 @@
     <span>
         I have an eye on UI/UX | sometimes on security too :)
     </span>
-    <img src="images/mission-min.jpg" alt="my computer">
+    <picture>
+        <img src="images/mission-min.jpg" alt="my computer">
+    </picture>
 </header>
 
 
@@ -113,7 +115,7 @@
                         <?php foreach ($works as $work) { ?>
                             <div>
                                 <?php
-                            if(is_array($work['tech'])){ ?>
+                            if(is_array($work['title'])){ ?>
                                 <span>
                                  <?= $work['tech'][0]?> :
                             <?php
@@ -123,7 +125,7 @@
                                 </span>
                                 <?php
                                 }else{ ?>
-                                <a href="<?= $work['link'] ?>" target="_blank"><?= $work[1] ?></a>
+                                <a href="<?= $work['link'] ?>" target="_blank"><?= $work['title'] ?></a>
                                 <?php } ?>
                             <header>
                                 <?= implode(', ', $work['tech']) ?>

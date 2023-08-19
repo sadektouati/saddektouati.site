@@ -148,7 +148,7 @@ $schoolProjects = [
             [
                 "link" => "/schl/s3-ux-ui/4-langage-graphique",
                 "github" => "https://github.com/sadektouati/4-langage-graphique",
-                "title" => ["Langage Graphique: zonning", "Langage Graphique: wireframe", "Langage Graphique: maquette"], 
+                "title" => [ "Langage Graphique: zonning", "Langage Graphique: wireframe", "Langage Graphique: maquette" ], 
                 "tech" => ['HTML', 'CSS', 'UI', 'UX']
             ],
 
