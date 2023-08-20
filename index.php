@@ -131,7 +131,10 @@
             <img src="/images/captures/stampe.png" alt="stampe">
             <a href="https://stampe.saddektouati.site/">stampe.site</a>
         </li>
-        <li><a href="https://nextpixel.dz">nextpixel.dz</a></li>
+        <li>
+            <img src="/images/captures/nextpixel.png" alt="nextpixel">
+            <a href="https://nextpixel.dz">nextpixel.dz</a>
+        </li>
         <li><a href="https://locadz.site/">locadz.site</a></li>
         <li>
             <img src="/images/captures/corsoceram.png" alt="corsoceram">
