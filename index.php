@@ -128,27 +128,27 @@
 
     <ul class="scrollable">
         <li>
-            <img src="/images/captures/stampe.png" alt="stampe" target="_blank">
+            <img src="/images/captures/stampe.min.png" alt="stampe" target="_blank">
             <a href="https://stampe.saddektouati.site/">stampe.site</a>
         </li>
         <li>
-            <img src="/images/captures/vino.png" alt="vino test">
+            <img src="/images/captures/vino.min.png" alt="vino test">
             <a href="https://vino.saddektouati.site" target="_blank">vino.site</a>
         </li>
         <li>
-            <img src="/images/captures/nextpixel.png" alt="nextpixel">
+            <img src="/images/captures/nextpixel.min.png" alt="nextpixel">
             <a href="https://nextpixel.dz" target="_blank">nextpixel.dz</a>
         </li>
         <li>
-            <img src="/images/captures/corsoceram.png" alt="corsoceram">
+            <img src="/images/captures/corsoceram.min.png" alt="corsoceram">
             <a href="https://corsoceram.com" target="_blank">corsoceram.com</a>
         </li>
         <li>
-            <img src="/images/captures/tijelabine.png" alt="tijelabine">
+            <img src="/images/captures/tijelabine.min.png" alt="tijelabine">
             <a href="https://tijelabine.com/fr" target="_blank">tijelabine.com</a>
         </li>
         <li>
-            <img src="/images/captures/wajedli.png" alt="wajedli">
+            <img src="/images/captures/wajedli.min.png" alt="wajedli">
             <a href="https://wajedli.saddektouati.site/fr/" target="_blank">wajedli.site</a>
         </li>
     </ul>
