@@ -135,7 +135,7 @@ include('school-projects.php');
     <ul class="scrollable">
     <?php foreach ($projects as $key => $value) { ?>
         <li>
-            <img src="/images/captures/<?= $key?>-min.png" alt="<?= $key?>" target="_blank">
+            <img src="/images/captures/<?= $key?>-min.webp" alt="<?= $key?>" target="_blank">
             <a href="<?= $value['link']?>"><?= $value['name']?></a>
         </li>
     <?php } ?>
