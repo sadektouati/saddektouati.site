@@ -203,6 +203,15 @@ body > div > section p + label{
     background-color: #00ff7b0a;
  }
 
+ @media screen and (min-width: 768px) {
+    body > div > ul {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, 15rem);
+        justify-content: center;
+        gap: 2rem;
+    }
+ }
+
  body > div > ul li {
     position: relative;
     display: flex;
