@@ -278,6 +278,9 @@ main > section > article > div > div footer h4{
     color: #887d92;
     border-bottom: 1px solid #d3d3d359;
     font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 body > div > footer {
