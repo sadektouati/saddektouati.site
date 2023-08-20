@@ -1,3 +1,7 @@
+<?php 
+include('projects.php');
+include('school-projects.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,6 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/icones/favicon.png">
+    <?php foreach ($projects as $key => $value) { ?>
+        <link rel="preload" as="image" href="/images/captures/<?= $key ?>-min.png" />
+    <?php } ?>
+
     <link rel="stylesheet" href="style.css?<?= filemtime('style.css')?>">
     <title>Saddek touati</title>
     
@@ -124,33 +132,13 @@
 
 </section>
 
-<?php include('school-projects.php'); ?>
-
     <ul class="scrollable">
+    <?php foreach ($projects as $key => $value) { ?>
         <li>
-            <img src="/images/captures/stampe-min.png" alt="stampe" target="_blank">
-            <a href="https://stampe.saddektouati.site/">stampe.site</a>
+            <img src="/images/captures/<?= $key?>-min.png" alt="<?= $key?>" target="_blank">
+            <a href="<?= $value['link']?>"><?= $value['name']?></a>
         </li>
-        <li>
-            <img src="/images/captures/vino-min.png" alt="vino test">
-            <a href="https://vino.saddektouati.site" target="_blank">vino.site</a>
-        </li>
-        <li>
-            <img src="/images/captures/nextpixel-min.png" alt="nextpixel">
-            <a href="https://nextpixel.dz" target="_blank">nextpixel.dz</a>
-        </li>
-        <li>
-            <img src="/images/captures/corsoceram-min.png" alt="corsoceram">
-            <a href="https://corsoceram.com" target="_blank">corsoceram.com</a>
-        </li>
-        <li>
-            <img src="/images/captures/tijelabine-min.png" alt="tijelabine">
-            <a href="https://tijelabine.com/fr" target="_blank">tijelabine.com</a>
-        </li>
-        <li>
-            <img src="/images/captures/wajedli-min.png" alt="wajedli">
-            <a href="https://wajedli.saddektouati.site/fr/" target="_blank">wajedli.site</a>
-        </li>
+    <?php } ?>
     </ul>
 
 <main id="work">
