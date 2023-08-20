@@ -128,14 +128,16 @@
 
     <ul class="scrollable">
         <li>
-            <img src="/images/captures/stampe.png" alt="">
+            <img src="/images/captures/stampe.png" alt="stampe">
             <a href="https://stampe.saddektouati.site/">stampe.site</a>
         </li>
         <li><a href="https://nextpixel.dz">nextpixel.dz</a></li>
         <li><a href="https://locadz.site/">locadz.site</a></li>
         <li><a href="https://corsoceram.com">corsoceram.com</a></li>
         <li><a href="https://tijelabine.com">tijelabine.com</a></li>
-        <li><a href="http://wajedli.saddektouati.site">wajedli.site</a></li>
+        <li>
+            <img src="/images/captures/wajedli.png" alt="wajedli">
+            <a href="https://wajedli.saddektouati.site/fr/">wajedli.site</a></li>
     </ul>
 
 <main id="work">
