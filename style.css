@@ -204,7 +204,7 @@ body > div > section p + label{
  }
 
  @media screen and (min-width: 768px) {
-    body > div > ul {
+    body > div > ul.scrollable {
         display: grid;
         grid-template-columns: repeat( auto-fit, 15rem);
         justify-content: center;
