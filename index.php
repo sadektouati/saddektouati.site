@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icones/favicon.png">
     <link rel="stylesheet" href="style.css?<?= filemtime('style.css')?>">
     <title>Saddek touati</title>
+    
 </head>
 <body>
 
@@ -17,12 +19,32 @@
     </span>
 </div>
 
+
 <nav id="top">
-    <a href="#top">Accueil</a>
-    <a href="#me">Moi</a>
-    <a href="#work">Travaux</a>
-    <a href="#contact">Contact</a>    
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/saddek-touati-010603173/">LinkedIn</a>
+        </li>
+        <li>
+            <a href="https://github.com/sadektouati">Github</a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+        <a href="#top">Accueil</a>
+        </li>
+        <li>
+            <a href="#me">Moi</a>
+        </li>
+        <li>
+            <a href="#work">Travaux</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a> 
+        </li>
+    </ul>
 </nav>
+
 <header>
     <h1>
         Touati Saddek | Full stack developer
@@ -103,7 +125,18 @@
 </section>
 
 <?php include('school-projects.php'); ?>
+
+    <ul class="scrollable">
+        <li><a href="https://nextpixel.dz">nextpixel.dz</a></li>
+        <li><a href="https://locadz.site/">https://locadz.site/</a></li>
+        <li><a href="https://corsoceram.com">corsoceram.com</a></li>
+        <li><a href="https://tijelabine.com">tijelabine.com</a></li>
+        <li><a href="https://stampe.saddektouati.site/">stampe.site</a></li>
+        <li><a href="http://wajedli.saddektouati.site">wajedli.site</a></li>
+    </ul>
+
 <main id="work">
+
     <?php foreach ($schoolProjects as $subcategory => $value) { ?>
         <section>
             <h2><?= $subcategory ?> <sub>@school</sub></h2>
@@ -117,7 +150,6 @@
                         <?php foreach ($works as $work) { ?>
                             <div>
                                 <picture>
-                                <!-- https://picsum.photos/500?random=<?= rand()?> -->
                                     <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="">
                                 </picture>
                                 <footer>
@@ -154,10 +186,10 @@
 <footer id="contact">
     <div>
         <header>
-            Merci de votre visite
+            Vous avez un mandat!
         </header>
         <p>
-            j'espère avoir l'occasion de travailler avec vous bientôt !
+            ecrivez-moi @ mon <a href="mailto:saddektouati2016@gmail.com">courriel</a>
         </p>
     </div>
 </footer>
