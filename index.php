@@ -132,7 +132,7 @@
             <a href="https://stampe.saddektouati.site/">stampe.site</a>
         </li>
         <li>
-            <img src="/images/captures/vino.png" alt="vino">
+            <img src="/images/captures/vino.png" alt="vino test">
             <a href="https://vino.saddektouati.site">vino.site</a>
         </li>
         <li>
