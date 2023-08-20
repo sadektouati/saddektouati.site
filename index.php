@@ -17,7 +17,12 @@
     </span>
 </div>
 
-
+<nav id="top">
+    <a href="#top">Accueil</a>
+    <a href="#me">Moi</a>
+    <a href="#work">Travaux</a>
+    <a href="#contact">Contact</a>    
+</nav>
 <header>
     <h1>
         Touati Saddek | Full stack developer
@@ -28,7 +33,7 @@
 </header>
 
 
-<section>
+<section id="me">
 
     <div>
         <h3>Me!</h3>
@@ -98,7 +103,7 @@
 </section>
 
 <?php include('school-projects.php'); ?>
-<main>
+<main id="work">
     <?php foreach ($schoolProjects as $subcategory => $value) { ?>
         <section>
             <h2><?= $subcategory ?> <sub>@school</sub></h2>
@@ -111,11 +116,16 @@
                     <div class="scrollable">
                         <?php foreach ($works as $work) { ?>
                             <div>
+                                <picture>
+                                <!-- https://picsum.photos/500?random=<?= rand()?> -->
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="">
+                                </picture>
+                                <footer>
                                 <?php
                             if(is_array($work['title'])){ ?>
                                 <span>
-                                 <?= $work['tech'][0]?> :
-                            <?php
+                                 <?= $work['title'][0]?> :
+                                <?php
                                 foreach (['zonning', 'wireframe', 'maquette'] as $w) { ?>
                                    <a href="<?= $work['link'] ?>/<?= $w ?>" target="_blank"><?= $w ?></a>
                                 <?php } ?>
@@ -124,13 +134,13 @@
                                 }else{ ?>
                                 <a href="<?= $work['link'] ?>" target="_blank"><?= $work['title'] ?></a>
                                 <?php } ?>
-                            <header>
-                                <?= implode(', ', $work['tech']) ?>
-                            </header>
-                            <p><?= $work[4]??"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cum, obcaecati itaque illum natus mollitia aut sequi recusandae, nulla alias quae nam accusamus! Similique, numquam?" ?></p>
+                                <h4>
+                                    <?= implode(', ', $work['tech']) ?>
+                                </h4>
                             <a <?= empty($work['github']) ? '' : ' href="' . $work['github'] . '"' ?> target="_blank" class="github <?= empty($work['github']) ? 'no-github' : '' ?>">
                                     voir sur github
                             </a>
+                                </footer>
                             </div>
                         <?php } ?>
                     </div>
@@ -141,7 +151,7 @@
     
 </main>
 
-<footer>
+<footer id="contact">
     <div>
         <header>
             Merci de votre visite

@@ -6,7 +6,8 @@ $schoolProjects = [
                 "link" => "https://vino.saddektouati.site",
                 "github" => "https://github.com/sadektouati/Vino",
                 "title" => "Projet final",
-                "tech" => ['Git', 'Composer', 'Laravel', 'Sanctum', 'Restful API', 'Eloquent', 'Migrations', 'Factory', 'Php8.2', 'MySQL',  'CSS', 'TailwindCSS', 'HTML', 'JS', 'Vue.js', 'Composition API']
+                "tech" => ['Git', 'Composer', 'Laravel', 'Sanctum', 'Restful API', 'Eloquent', 'Migrations', 'Factory', 'Php8.2', 'MySQL',  'CSS', 'TailwindCSS', 'HTML', 'JS', 'Vue.js', 'Composition API'],
+                'img' => 'example.png'
             ],
         ],
 
@@ -148,7 +149,7 @@ $schoolProjects = [
             [
                 "link" => "/schl/s3-ux-ui/4-langage-graphique",
                 "github" => "https://github.com/sadektouati/4-langage-graphique",
-                "title" => [ "Langage Graphique: zonning", "Langage Graphique: wireframe", "Langage Graphique: maquette" ], 
+                "title" => [ "Langage Graphique", "Langage Graphique", "Langage Graphique" ], 
                 "tech" => ['HTML', 'CSS', 'UI', 'UX']
             ],
 
