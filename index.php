@@ -132,10 +132,13 @@
             <a href="https://stampe.saddektouati.site/">stampe.site</a>
         </li>
         <li>
+            <img src="/images/captures/vino.png" alt="vino">
+            <a href="https://vino.saddektouati.site">vino.site</a>
+        </li>
+        <li>
             <img src="/images/captures/nextpixel.png" alt="nextpixel">
             <a href="https://nextpixel.dz">nextpixel.dz</a>
         </li>
-        <li><a href="https://locadz.site/">locadz.site</a></li>
         <li>
             <img src="/images/captures/corsoceram.png" alt="corsoceram">
             <a href="https://corsoceram.com">corsoceram.com</a>
