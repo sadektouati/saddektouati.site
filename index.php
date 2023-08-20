@@ -133,7 +133,10 @@
         </li>
         <li><a href="https://nextpixel.dz">nextpixel.dz</a></li>
         <li><a href="https://locadz.site/">locadz.site</a></li>
-        <li><a href="https://corsoceram.com">corsoceram.com</a></li>
+        <li>
+            <img src="/images/captures/corsoceram.png" alt="corsoceram">
+            <a href="https://corsoceram.com">corsoceram.com</a>
+        </li>
         <li><a href="https://tijelabine.com">tijelabine.com</a></li>
         <li>
             <img src="/images/captures/wajedli.png" alt="wajedli">
