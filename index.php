@@ -145,11 +145,12 @@
         </li>
         <li>
             <img src="/images/captures/tijelabine.png" alt="tijelabine">
-            <a href="https://tijelabine.com" target="_blank">tijelabine.com</a>
+            <a href="https://tijelabine.com/fr" target="_blank">tijelabine.com</a>
         </li>
         <li>
             <img src="/images/captures/wajedli.png" alt="wajedli">
-            <a href="https://wajedli.saddektouati.site/fr/" target="_blank">wajedli.site</a></li>
+            <a href="https://wajedli.saddektouati.site/fr/" target="_blank">wajedli.site</a>
+        </li>
     </ul>
 
 <main id="work">
