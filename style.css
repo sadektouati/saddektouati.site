@@ -227,8 +227,10 @@ body > div > section p + label{
     overflow: hidden;
 }
 
-body > div > ul li:hover {
-    scale: 1.1;
+@supports (hover){
+    body > div > ul li:hover {
+        scale: 1.1;
+    }
 }
 
 body > div > ul li img{
@@ -248,11 +250,8 @@ body > div > ul li a {
     color: white;
     transition: all .2s ease-in-out .15s;
 }
-body > div > ul li img + a {
-    color: transparent;
-}
 
-body > div > ul li:hover a {
+body > div > ul li a {
     color: orange;
     background-color: #000000b3;
 }
