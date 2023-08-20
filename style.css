@@ -223,6 +223,7 @@ main > section > article > div > div{
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    flex: 1;
     color: #fff3de;
 }
 
