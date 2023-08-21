@@ -17,12 +17,19 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.1rem;
     margin: 0;
-    min-height: 100vh;
     padding: 0;
+    min-height: 100vh;
     background-image: url(images/background-min.jpg);
     background-size: contain;
     background-repeat: repeat;
     background-attachment: fixed;
+    background-blend-mode: hue;
+    background-color: #2a2231e8;
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 .scrollable {
@@ -68,93 +75,70 @@ picture img{
     background-image: linear-gradient( to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 1px), rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) calc(50% + 1px), rgba(0, 0, 0, 0) 100% ), linear-gradient( to top right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 1px), rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) calc(50% + 1px), rgba(0, 0, 0, 0) 100% );
 }
 
-body > div {
-    background-color: #2a2231de;
-    backdrop-filter: blur(5px);
-    gap: 5rem;
-    display: flex;
-    flex-flow: column;
-}
-
-body > div > * {
+body > * {
     width: min(1200px, 100%);
     margin: auto;
 }
 
-body > div > nav{
+body > nav{
     width: min(100%, 50rem);
     display: flex;
     flex-direction: column;
     gap: .5rem;
     justify-content: center;
     color: rgb(198 198 223);
+    padding-top: 2rem;
 }
 
-body > div > nav ul{
+body > nav ul{
     display: flex;
     gap: 1rem;
     padding-inline: 1rem;
 }
 
-body > div > nav ul:first-of-type{
+body > nav ul:first-of-type{
     justify-content: flex-end;
     font-size: .8em;
 }
 
-body > div > nav ul li{
+body > nav ul li{
     display: flex;
 }
 
 @media screen and (min-width: 768px) {
-    body > div > nav{
+    body > nav{
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-    body > div > nav ul:first-of-type{
+    body > nav ul:first-of-type{
         justify-content: flex-end;
         font-size: inherit;
     }
 }
 
-body > div > div{
-    background-color: #00ff7b70;
-    padding: 1rem;
-    text-align: center;
-    font-size: 1.3rem;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    /* position: fixed; */
-    top: 0;
-    z-index: 1;
-}
-body > div > div span{
-    font-size: 1rem;
-}
 
-
-body > div > header > *{
+body > header > *{
     color: #ffffffd6;
     padding: 0 1rem;
     display: block;
 }
 
-body > div > header h1{
+body > header h1{
     font-size: 2rem;
     line-height: 1;
 }
-body > div > header span{
+body > header span{
     font-size: .8em;
 }
 
 
-body > div > section {
+body > section {
     display: flex;
     flex-flow: row wrap;
     gap: 3rem 2rem;
 }
 
-body > div > section div {
+body > section div {
     padding: 2rem;
     flex: 1 1 30rem;
     background: #00000070;
@@ -164,11 +148,11 @@ body > div > section div {
     color: #f1f8ff;
 }
 
-body > div > section div:first-of-type, body > div > section div:last-of-type {
+body > section div:first-of-type, body > section div:last-of-type {
     min-width: 100%;
 }
 
-body > div > section div h3{
+body > section div h3{
     display: inline-block;
     background: #3c2f47f2;
     color: white;
@@ -180,22 +164,22 @@ body > div > section div h3{
     left: 1.5rem;
 }
 
-body > div > section p + label{
+body > section p + label{
     color: gray;
     text-decoration: underline;
  }
 
- body > div > section div p + label ~ p{
+ body > section div p + label ~ p{
     display: none;
  }
 
- body > div > article {
+ body > article {
     display: flex;
     flex-direction: column;
     gap: 2rem;
  }
 
- body > div > ul {
+ body > ul {
     display: flex;
     gap: 2rem;
     padding: 2rem !important;
@@ -204,7 +188,7 @@ body > div > section p + label{
  }
 
  @media screen and (min-width: 768px) {
-    body > div > ul.scrollable {
+    body > ul.scrollable {
         display: grid;
         grid-template-columns: repeat( auto-fit, 15rem);
         justify-content: center;
@@ -212,7 +196,7 @@ body > div > section p + label{
     }
  }
 
- body > div > ul li {
+ body > ul li {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -228,18 +212,18 @@ body > div > section p + label{
 }
 
 @supports (hover){
-    body > div > ul li:hover {
+    body > ul li:hover {
         scale: 1.1;
     }
 }
 
-body > div > ul li img{
+body > ul li img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-body > div > ul li a {
+body > ul li a {
     text-decoration: none;
     position: absolute;
     inset: 0;
@@ -251,7 +235,7 @@ body > div > ul li a {
     transition: all .2s ease-in-out .15s;
 }
 
-body > div > ul li a {
+body > ul li a {
     color: orange;
     background-color: #000000b3;
 }
@@ -377,12 +361,12 @@ main > section > article > div > div footer h4{
     text-overflow: ellipsis;
 }
 
-body > div > footer {
+body > footer {
     background: radial-gradient(#3e3e3e, transparent);
     padding: 1rem;
 }
 
-body > div > footer > div {
+body > footer > div {
     max-width: 30rem;
     height: 15rem;
     border-radius: 50%;
@@ -397,19 +381,19 @@ body > div > footer > div {
     color: #fffffff7;
 }
 
-body > div > footer > div header {
+body > footer > div header {
     font-size: 1rem;
     color: #00ff7bc2;
 }
 
 @media screen and (min-width: 768px) {
 
-    body > div > section p + label{
+    body > section p + label{
         color: gray;
         text-decoration: underline;
      }
     
-     body > div > section div p + label ~ p{
+     body > section div p + label ~ p{
         display: none;
      }
 }

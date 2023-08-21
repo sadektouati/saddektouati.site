@@ -19,15 +19,6 @@ include('school-projects.php');
 </head>
 <body>
 
-<div>
-<div>
-    This is a work in progress :)
-    <span>
-        in this page, some links might not work properly
-    </span>
-</div>
-
-
 <nav id="top">
     <ul>
         <li>
@@ -200,7 +191,6 @@ include('school-projects.php');
     </div>
 </footer>
 
-</div>
 </body>
 <script>
         document.querySelectorAll('._readMore').forEach(element => {
