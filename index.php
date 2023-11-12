@@ -186,7 +186,7 @@ include('school-projects.php');
             Vous avez un mandat!
         </header>
         <p>
-            ecrivez-moi @ mon <a href="mailto:saddektouati2016@gmail.com">courriel</a>
+            ecrivez-moi @ mon <a href="mailto:sadektouati2016@gmail.com">courriel</a>
         </p>
     </div>
 </footer>
